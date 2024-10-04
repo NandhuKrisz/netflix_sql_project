@@ -126,7 +126,7 @@ FROM netflix_raw
 GROUP BY 1
 ORDER BY COUNT(*) DESC
 ```
-### 10. Find each year and the average numbers of content release in India on netflix. return top 5 year with highest avg content release!
+### 10. Find each year and the average numbers of content release in India on netflix. Return top 5 year with highest avg content release!
 
 ```sql
 WITH CTE AS
@@ -194,3 +194,13 @@ FROM netflix_raw
 )x
 GROUP BY category
 ```
+
+## Findings and Conclusion
+
+- **Content Distribution**: The dataset showcases a wide variety of movies and TV shows, each with different ratings and genres.
+- **Common Ratings**: Analyzing the prevalent ratings offers insights into the intended audience for the content.
+- **Geographical Insights**: Identifying the leading countries and average content releases from India reveals regional content trends.
+- **Content Categorization**: Classifying content using specific keywords enhances the understanding of the types of content available on Netflix.
+
+This analysis delivers a thorough perspective on Netflix's content offerings, which can assist in shaping content strategies and guiding decision-making processes.
+
