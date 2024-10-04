@@ -36,6 +36,7 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
+```
 
 ## Solutions
 
@@ -45,4 +46,5 @@ CREATE TABLE netflix
 SELECT type, COUNT(*) AS count
 FROM netflix_raw
 GROUP BY type;
+```
 
